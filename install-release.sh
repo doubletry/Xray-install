@@ -680,8 +680,8 @@ install_geodata() {
       exit 1
     fi
   }
-  local download_link_geoip="https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat"
-  local download_link_geosite="https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat"
+  local download_link_geoip="https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat"
+  local download_link_geosite="https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat"
   local file_ip='geoip.dat'
   local file_site='geosite.dat'
   local dir_tmp
